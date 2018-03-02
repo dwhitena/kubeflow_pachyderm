@@ -1,0 +1,15 @@
+{
+  "pipeline": {
+    "name": "tf_sample"
+  },
+  "transform": {
+    "image": "pachyderm/kubeflow_worker:fix7",
+    "cmd": [ "./tf_job.sh" ]
+  },
+  "input": {
+    "atom": {
+      "repo": "sample_input",
+      "glob": "/"
+    }
+  }
+}
