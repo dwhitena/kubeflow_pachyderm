@@ -3,7 +3,7 @@
     "name": "tf_sample"
   },
   "transform": {
-    "image": "pachyderm/kubeflow_worker:fix7",
+    "image": "pachyderm/kubeflow_worker",
     "cmd": [ "./tf_job.sh" ]
   },
   "input": {
